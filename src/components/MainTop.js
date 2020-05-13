@@ -4,7 +4,7 @@ import {Grid, Typography} from '@material-ui/core';
 class MainTop extends Component {
     render() {
         return(
-            <div>
+            <div className="main">
                 <Grid container direction="row" className="main-top">
                     <Grid item>
                         <svg xmlns="http://www.w3.org/2000/svg">
@@ -15,7 +15,7 @@ class MainTop extends Component {
                     <br/>
                 <Grid container class="main-top">
                     <Grid item>
-                        <Typography><h2>Hello!!!</h2></Typography>
+                        <Typography variant="h2">Hello!!!</Typography>
                     </Grid>
                 </Grid>
             </div>

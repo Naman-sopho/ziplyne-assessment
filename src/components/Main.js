@@ -1,15 +1,17 @@
 import React, {Component} from 'react'
-import { Button } from '@material-ui/core';
+import { Grid } from '@material-ui/core';
 import Navbar from './Navbar';
 import MainTop from './MainTop';
+import MainBottom from './MainBottom';
 
 class Main extends Component {
     render() {
         return(
-            <div>
-                <Navbar/>
-                <MainTop/>
-            </div>
+            <Grid container direction="column">
+                <Grid item md={12}><Navbar/></Grid>
+                <Grid item md={12}><MainTop/></Grid>
+                <Grid item md={12}><MainBottom/></Grid>
+            </Grid>
         );
     }
 }

@@ -11,16 +11,16 @@ function ListItemLink(props) {
 class Navbar extends Component {
     render() {
         return (
-            <div>
+            <div justifyContent="center" alignItems="center">
                 <AppBar position="static" color="transparent">
                     <Toolbar className="toolbar">
                         <Grid container direction="row" alignItems="flex-start">
-                            <Grid item md={4} align="left">
+                            <Grid item md={4} align="left" alignItems="center" justifyContent="center">
                                 <img src={logo} className="App-logo"/>
                             </Grid>
                             <Grid item md={6}>
                                     <List>
-                                    <Grid container direction="row">
+                                    <Grid container direction="row" spacing={0.5}>
                                         <Grid item>
                                         <ListItem>
                                             
@@ -70,11 +70,11 @@ class Navbar extends Component {
                                         </Grid>
                                     </List>
                             </Grid>
-                            <Grid item md={2} className="navbar-buttons">
-                                <Button variant="contained">
-                                    Request a demo
+                            <Grid item md={2}>
+                                <Button variant="contained" className="navbar-buttons">
+                                    <Typography>Request a demo</Typography>
                                 </Button>
-                                <IconButton>
+                                <IconButton className="navbar-buttons">
                                     <ExitToApp/>
                                 </IconButton>
                             </Grid>
