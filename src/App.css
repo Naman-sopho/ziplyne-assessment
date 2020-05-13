@@ -102,3 +102,13 @@ svg {
   top: 20%;
   color: #FFFFFF;
 }
+
+.bottom {
+  background-color: #9A60F290;
+  position: relative;
+  color: #FFFFFF;
+  height: 20vh;
+  bottom: 0px;
+  width: 100%;
+  text-align: left;
+}

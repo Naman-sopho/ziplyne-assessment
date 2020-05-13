@@ -26,8 +26,8 @@ class MainBottom extends Component {
                         </div>
                         </Card>
                     </Grid>
-
                 </Grid>
+                
             </div>
         );
     }
