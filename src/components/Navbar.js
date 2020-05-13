@@ -13,7 +13,7 @@ class Navbar extends Component {
         return (
             <div>
                 <AppBar position="static" color="transparent">
-                    <Toolbar>
+                    <Toolbar className="toolbar">
                         <Grid container direction="row" alignItems="flex-start">
                             <Grid item md={4} align="left">
                                 <img src={logo} className="App-logo"/>
