@@ -71,12 +71,14 @@ class Navbar extends Component {
                                     </List>
                             </Grid>
                             <Grid item md={2}>
-                                <Button variant="contained" className="navbar-buttons">
-                                    <Typography>Request a demo</Typography>
+                                <div className="navbar-buttons">
+                                <Button variant="contained" color="primary"className="navbar-buttons">
+                                    <Typography style={{color: '#FFFFFF'}}>Request a demo</Typography>
                                 </Button>
                                 <IconButton className="navbar-buttons">
                                     <ExitToApp/>
                                 </IconButton>
+                                </div>
                             </Grid>
                         </Grid>
                     </Toolbar>

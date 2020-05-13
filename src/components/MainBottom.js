@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
-import {Box, Card, CardMedia, Grid, Typography} from '@material-ui/core';
-import diamond from '../images/diamond.png';
+import {Box, Card, Grid, Typography} from '@material-ui/core';
 import design from '../images/design.png';
 
 class MainBottom extends Component {
