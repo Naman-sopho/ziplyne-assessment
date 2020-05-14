@@ -24,7 +24,7 @@ class Navbar extends Component {
                                         <Grid item>
                                         <ListItem>
                                             
-                                                <ListItemLink href="#">
+                                                <ListItemLink href="https://www.ziplyne.com/#/product">
                                                     <ListItemText><Typography style={{fontWeight: "bolder"}}>Product</Typography></ListItemText>
                                                 </ListItemLink>
 
@@ -42,7 +42,7 @@ class Navbar extends Component {
                                         <Grid item>
                                         <ListItem>
                                             
-                                                <ListItemLink href="#">
+                                                <ListItemLink href="https://www.ziplyne.com/#/pricing">
                                                     <ListItemText><Typography style={{fontWeight: "bolder"}}>Pricing</Typography></ListItemText>
                                                 </ListItemLink>
 
@@ -51,7 +51,7 @@ class Navbar extends Component {
                                         <Grid item>
                                         <ListItem>
                                             
-                                                <ListItemLink href="#">
+                                                <ListItemLink href="https://www.ziplyne.com/#/usecase">
                                                     <ListItemText><Typography style={{fontWeight: "bolder"}}>Customer Stories</Typography></ListItemText>
                                                 </ListItemLink>
 
