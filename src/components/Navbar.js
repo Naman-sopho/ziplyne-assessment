@@ -1,8 +1,8 @@
-import React, {Component} from 'react'
-import {AppBar, Button, IconButton, Grid, Toolbar, List, ListItem, ListItemText, Typography} from '@material-ui/core'
-import ExitToApp from '@material-ui/icons/ExitToApp'
+import React, {Component} from 'react';
+import {AppBar, Button, IconButton, Grid, Toolbar, List, ListItem, ListItemText, Typography} from '@material-ui/core';
+import ExitToApp from '@material-ui/icons/ExitToApp';
 import '../App.css';
-import logo from '../images/logo.png'
+import logo from '../images/logo.png';
 
 function ListItemLink(props) {
     return <ListItem button component="a" {...props} />;
@@ -25,7 +25,7 @@ class Navbar extends Component {
                                         <ListItem>
                                             
                                                 <ListItemLink href="#">
-                                                    <ListItemText><Typography>Product</Typography></ListItemText>
+                                                    <ListItemText><Typography style={{fontWeight: "bolder"}}>Product</Typography></ListItemText>
                                                 </ListItemLink>
 
                                         </ListItem>
@@ -34,7 +34,7 @@ class Navbar extends Component {
                                         <ListItem>
                                             
                                                 <ListItemLink href="#">
-                                                    <ListItemText><Typography>Solution</Typography></ListItemText>
+                                                    <ListItemText><Typography style={{fontWeight: "bolder"}}>Solution</Typography></ListItemText>
                                                 </ListItemLink>
 
                                         </ListItem>
@@ -43,7 +43,7 @@ class Navbar extends Component {
                                         <ListItem>
                                             
                                                 <ListItemLink href="#">
-                                                    <ListItemText><Typography>Pricing</Typography></ListItemText>
+                                                    <ListItemText><Typography style={{fontWeight: "bolder"}}>Pricing</Typography></ListItemText>
                                                 </ListItemLink>
 
                                         </ListItem>
@@ -52,7 +52,7 @@ class Navbar extends Component {
                                         <ListItem>
                                             
                                                 <ListItemLink href="#">
-                                                    <ListItemText><Typography>Customer Stories</Typography></ListItemText>
+                                                    <ListItemText><Typography style={{fontWeight: "bolder"}}>Customer Stories</Typography></ListItemText>
                                                 </ListItemLink>
 
                                         </ListItem>
@@ -61,7 +61,7 @@ class Navbar extends Component {
                                         <ListItem>
                                             
                                                 <ListItemLink href="#">
-                                                    <ListItemText><Typography>Resources</Typography></ListItemText>
+                                                    <ListItemText><Typography style={{fontWeight: "bolder"}}>Resources</Typography></ListItemText>
                                                 </ListItemLink>
 
                                         </ListItem>

@@ -49,7 +49,7 @@ body {
 }
 
 .main-top {
-  background-color: #9A60F290;
+  background-color: #9A60F29A;
   position: absolute;
   color: #FFFFFF;
   height: 20vh;
@@ -74,7 +74,7 @@ img {
 
 svg {
   width: 100%;
-  height: 25vh;
+  height: 30vh;
   position: absolute;
   bottom: 20vh;
 }
@@ -86,7 +86,8 @@ svg {
   background-position: bottom left;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 20%;
+  margin-top: 45%;
+  margin-left: 10%;
 }
 
 .card .img {
@@ -111,4 +112,13 @@ svg {
   bottom: 0px;
   width: 100%;
   text-align: left;
+}
+
+.main-bottom {
+  background-color: rgba(93, 54, 151, 0.604);
+  position: relative;
+  color: #FFFFFF;
+  height: 20vh;
+  bottom: 25vh;
+  width: 100%;
 }
