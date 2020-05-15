@@ -20,5 +20,5 @@ npm start
 
 #### Link to another example
 The below is a link to a deployment and the repository of another assessment(Llamas Rule!!) that I completed recently.
-![Heroku Deployment](http://llamas-rule.herokuapp.com/)
-![Github Repository](https://github.com/Naman-sopho/llamas_rule)
+[Heroku Deployment](http://llamas-rule.herokuapp.com/)  
+[Github Repository](https://github.com/Naman-sopho/llamas_rule)
